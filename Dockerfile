@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN gitclone https://github.com/DeeCeeXxx/Queen-Anita-V2
+RUN gitclone https://github.com/H-vidz15/JHX_1-V1
 
 
 COPY package.json .
