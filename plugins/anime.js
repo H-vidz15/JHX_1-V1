@@ -1,4 +1,4 @@
-//David Cyril
+//Hvidz
 const Config = require("../config");
 let {
   sendGImages,
