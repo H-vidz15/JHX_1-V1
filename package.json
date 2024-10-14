@@ -1,19 +1,19 @@
 {
-   "name": "Queen_Anita-V2",
-   "version": "2.5.0",
-   "description": "Multi device whatsapp bot by DeeCeeXxx.",
+   "name": "JHX_1-V1",
+   "version": "1.0.0",
+   "description": "Multi device whatsapp bot by H-vidz15.",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name Queen_Anita-V2 || node .",
-      "asta": "pm2 start . --deep-monitoring --attach --name Queen_Anita-V2 || node .",
+      "run": "pm2 start . --deep-monitoring --attach --name JHX_1-V1 || node .",
+      "asta": "pm2 start . --deep-monitoring --attach --name JHX_1-V1 || node .",
       "start": "pm2 start . --attach --name Queen_Anita-V2",
       "stop": "pm2 stop Queen_Anita-V2",
-      "heroku-postbuild": "git clone https://github.com/DeeCeeXxx/Queen_Anita-V2 temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/DeeCeeXxx/Queen_Anita-V2.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git clone https://github.com/H-vidz15/JHX_1-V1 temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/H-vidz15/JHX_1-V1.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "David Cyril",
+   "author": "H-vidz15",
    "license": "Apache-2.0",
    "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",
@@ -76,10 +76,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/DeeCeeXxx/Queen_Anita-V2.git"
+      "url": "git+https://github.com/H-vidz15/JHX_1-V1.git"
    },
    "bugs": {
-      "url": "https://github.com/DeeCeeXxx/Queen_Anita-V2/issues"
+      "url": "https://github.com/H-vidz15/JHX_1-V1/issues"
    },
-   "homepage": "https://github.com/DeeCeeXxx/Queen_Anita-V2#readme"
+   "homepage": "https://github.com/H-vidz15/JHX_1-V1#readme"
 }
