@@ -1,15 +1,15 @@
 {
-    "name": "Queen_Anita-V2",
+    "name": "JHX_1-V1",
     "description": "Simple WhatsApp Bot",
     "logo": "https://i.imgur.com/H4qeXwa.jpeg",
-    "keywords": ["DeeCeeXxx", "Anita-V2", "Queen_Anita"],
+    "keywords": ["H-vidz", "jhx-V1", "JHX_1"],
     "success_url": "/",
     "stack": "container",
   
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Queen_Anita-V2",
+        "value": "JHX_1-V1",
         "required": true
       },
   
@@ -40,7 +40,7 @@
       "BOT_NAME": {
         "description": " NAME FOR BOT",
         "required": false,
-        "value": "Queen_Anita-V2"
+        "value": "JHX_1-V1"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
@@ -103,7 +103,7 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "2349066528353"
+        "value": "2349076087791"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
@@ -115,12 +115,12 @@
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
-        "value": "Queen_Anita-V2",
+        "value": "JHX_1-V1",
         "required": false
       },
       "PACK_AUTHER": {
         "description": "Put Sticker Author_Name.",
-        "value": "A N I T A",
+        "value": "J H X",
         "required": false
       }  
   },
